@@ -1,0 +1,22 @@
+{
+  "name": "odo-layers",
+  "version": "1.0.0",
+  "description": "Layered store with commit and rollback",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/odojs/odo-layers.git"
+  },
+  "author": "Thomas Coats",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/odojs/odo-layers/issues"
+  },
+  "homepage": "https://github.com/odojs/odo-layers",
+  "dependencies": {
+    "extend": "^2.0.1"
+  }
+}
