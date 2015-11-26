@@ -1,6 +1,6 @@
 {
   "name": "odo-layers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Layered store with commit and rollback",
   "main": "index.js",
   "scripts": {
