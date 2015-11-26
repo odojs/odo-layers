@@ -28,9 +28,9 @@ module.exports = (initialState) ->
   layer: (layer) ->
     _layers.push layer
     rollback: ->
-      index _layers.indexOf layer
+      index = _layers.indexOf layer
       _layers.splice index, 1
     commit: ->
-      index _layers.indexOf layer
+      index = _layers.indexOf layer
       _layers.splice index, 1
       extend _state, layer

@@ -34,11 +34,13 @@ module.exports = function(initialState) {
       _layers.push(layer);
       return {
         rollback: function() {
-          index(_layers.indexOf(layer));
+          var index;
+          index = _layers.indexOf(layer);
           return _layers.splice(index, 1);
         },
         commit: function() {
-          index(_layers.indexOf(layer));
+          var index;
+          index = _layers.indexOf(layer);
           _layers.splice(index, 1);
           return extend(_state, layer);
         }
